@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Actividad 1</title>
+        <link rel="stylesheet" href=".\css\styles11.css">
+    </head>
+<body>
+    <header>
+ <h1>Torneos de Halo</h1>
+ <p>Llevamos a cabo una serie de tornes de la franquicia de Shooter mas popular Halo.</p>
+ <p>Se realizaran torneos en la mayaria de entregas principales de la saga, y los siguientes torneos tienen inscripcion gratis  :</p>
+</header>
+ <ul>
+  <li>Halo 2: Clasico</li>
+  <li>Halo 3</li>
+  <li>Halo 5: Guardians</li>
+ </ul>
+ <br>
+ 
+ <table>
+    <tr class="head">
+    <th></th>
+    <th>Todos contra todos</th>
+    <th>Semifinal</th>
+    <th>Final</th>
+    
+    </tr>
+   
+    <tr>
+     <th>Halo Reach</th>
+     <td>Sab, 4 Feb 2023<br />11am - 2pm </td>
+     <td>Sab, 3 Mar 2023<br />11am - 2pm </td>
+     <td>Sab, 17 Mar 2023<br />11am - 2pm </td>
+     
+     
+    </tr>
+  
+    <tr class="even">
+        <th>Halo 2: Clasico</th>
+        <th>sab, 7 Abr 2023<br />11am - 1pm</th>
+        <th>sab, 5 May 2023<br />11am - 1pm</th>
+        <th>sab, 19 May 2023<br />11am - 1pm</th>
+    </tr>
+
+    <tr>
+    <th>Halo 5: Guardians</th>
+    <td>Sab, 9 Jun 2023<br />11am - 2pm </td>
+    <td>Sab, 7 Jul 2023<br />11am - 2pm </td>
+    <td>Sab, 21 Jul 2023<br />11am - 2pm </td>
+
+    </tr>
+
+    <tr class="even">
+     <th>Halo Infinite</th>
+     <td>Sat, 4 Ago 2023<br />11am - 4pm</td>
+     <td>Sat, 8 Sep 2023<br />11am - 4pm</td>
+     <td>Sat, 15 Sep 2023<br />11am - 4pm</td>
+
+    </tr>
+
+ </table>
+ 
+ <br>
+ <br>
+ <br>
+
+ <form action="actividad_22.html" method="get">
+    <fieldset>
+    <legend>Registrese para participar</legend>
+    <p><label class="title" for="name">Gamertag:</label>
+    <input type="text" name="name" id="name"><br />
+
+    <p><label class="title" for="name">Numero Telefonico:</label>
+        <input type="number" name="numero" id="numero"><br />
+    <br>
+    <label class="title" for="email">Correo electronico:</label>
+    <input type="text" name="email" id="email"></p>
+    <p><label for="location" id="location">En que torneo participara</label>
+    <select name="location" id="location">
+     <option value="bo">Halo: Reach</option>
+     <option value="ib">Halo 2</option>
+     <option value="me">Halo 5</option>
+     <option value="mp">Halo Infinite</option>
+    </select></p>
+
+    <p><label for="location" id="location">Dispositivo de entrada</label>
+        <select name="location" id="location">
+         <option value="bo">Control</option>
+         <option value="bi">Teclado y Mouse</option>
+        </select></p>
+
+    <span class="title">Estas de acuerdo con las condiciones?</span>
+    <label><input type="radio" name="member" value="si" />Si</label>
+
+    <label><input type="radio" name="member" value="no" />No</label></p>
+    </fieldset>
+    <br> 
+    <div class="submit"><input type="submit" value="Registro" />       <input type="reset" value="Borrar" /></div>
+    <div>
+ </form>
+ <br>
+ <footer>Torneos el pepe @ <br>Todos los derechos Reservados</footer>
+ </body>
+
+ 
+</html>
